@@ -1,6 +1,6 @@
 # LlamaGuard Usage Example
 
-> This example uses NeMo Guardrails' DefaultFramework with vLLM's OpenAI-compatible endpoint. No LangChain dependency is required: the `engine: openai` plus `parameters.base_url` form routes through the built-in OpenAI-compatible HTTP client.
+> This example uses NeMo Guardrails' default framework with vLLM's OpenAI-compatible endpoint. No LangChain dependency is required: the `engine: openai` plus `parameters.base_url` form routes through the built-in OpenAI-compatible HTTP client.
 
 This example showcases the use of Meta's [Llama Guard](https://ai.meta.com/research/publications/llama-guard-llm-based-input-output-safeguard-for-human-ai-conversations/) model for content moderation.
 
